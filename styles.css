@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+/*Created by Toniann Evans
+Hateno Village Website*/
+
+<html>
+    <head>
+    <style>
+
+    html{
+        /*Intentionally left blank*/
+        /*
+        color: #F8B195; peach
+        color: #F67280; pink
+        color: #C06C84; dim pink
+        color: #6C5B7B; purple
+
+        This project
+        color: #355C7D; navy
+
+        #id
+        .class
+
+        */
+    }
+
+    body {
+        margin-top: 12%;
+        left: 0;
+        background-color: #FFFFFF;
+    }
+
+    header div1 img{
+    height:200px;
+    border:2px solid black;
+    border-radius:9px;
+}
+
+    header {
+        position: fixed;
+        /*background-color: #355C7D;*/
+        background-color: black;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 25%;
+    }
+
+    p.headerText {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        font-weight: bold;
+    }
+
+    a.headerText {
+        font-size: 30px;
+        color: white;
+        text-decoration-line: none;
+        vertical-align:40%;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    a.headerText:hover {
+        color: #00BFFF;
+    }
+
+    footer {
+        background-color: black;
+        width: 100%;
+        height: 50%;
+    }
+
+    p.footerText {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        font-weight: bold;
+        color: white;
+    }
+
+    a.footerText {
+        font-size: 30px;
+        color: white;
+        text-decoration-line: none;
+        vertical-align:200%;
+        margin-right: 30px;
+        margin-left: 20px;
+    }
+
+    a.footerText:hover {
+        color: #00BFFF;
+    }
+
+    h2.footerText {
+        color:white;
+    }
+
+    h1 {
+        font-family: arial black;
+        /*font-size:55px;
+        color: #355C7D;
+        text-align: center;*/
+    }
+
+    h3 {
+        color: #355C7D;
+        text-align: center;
+    }
+
+    tr.mapnewsevents {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    td.mapnewsevents {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    div.mapnewsevents{
+        margin-left: auto;
+        margin-right: auto;
+        width:60%;
+    }
+
+    p.mapnewsevents {
+        color: #00BFFF;
+        font-weight: bold;
+    }
+
+    p.footerText {
+        color:white;
+    }
+
+    td.footerText {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    p.centered {
+        text-align: center;
+        width:400px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: bold;
+    }
+
+    li.frontpage {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    a.frontpage {
+        font-size: 28px;
+        color:black;
+        text-decoration-line: none;
+    }
+
+    a.frontpage:hover {
+        color: #00BFFF;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 10%;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #00BFFF}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+    </style>
+    </head>
+</html>
